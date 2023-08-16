@@ -1,0 +1,170 @@
+
+*,
+*::after,
+*::before{
+	margin:0;
+	padding:0;
+	box-sizing: border-box ;
+	-webkit-tap-highlight-color : transparent ;
+}
+
+html{ 
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	color: #303030;
+	background-color: #efefef;
+	user-select: none;
+	overflow-x: hidden;
+}
+
+body{ 
+	box-sizing: border-box; 
+	overflow-x: hidden ;
+	max-width: 100% ;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+h2{
+    font-weight: 400;
+}
+
+h1{
+    text-align: center;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction : row;
+    height: 100vh; 
+}
+
+.navbar{
+    width: 12vw;
+    border-right: 2px solid;
+    border-color: #EBEBEB;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subbox{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+}
+
+.profilebox{
+    height: 6vh;
+    color: white;
+    background-color: rgba(36, 41, 47, 1);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bodybox{
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 4.8rem;
+}
+
+.homediv{
+    padding-top: 2%;
+}
+
+.detailsdiv{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 4rem 8rem 12rem 0rem;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.details{
+    /* border-style: solid;
+    border-width: 1px; */
+    flex: 1;
+}
+
+.headbox{
+    /* border-style: solid;
+    border-width: 1px; */
+    flex: 1;
+}
+
+.content{
+    /* border-style: solid;
+    border-width: 1px; */
+    flex: 12;
+}
+
+.bottomdet{
+    /* border-style: solid;
+    border-width: 1px; */
+    flex: 1;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    padding-left: 2rem;
+}
+
+th{
+    text-align: left;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #000;
+}
+
+td{
+    text-align: left;
+    border-bottom: 1px solid #000;
+    /* border: 1px solid #000;
+    border-collapse: collapse; */
+}
+
+/* table, td{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-collapse: collapse;
+} */
+
+.dropdown{
+    height: 1rem;
+    width: 1rem;
+}
+
+.tablelogo{
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.logo{
+    padding-top: 8%;
+    width: 80%;
+    padding-left: 12%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo2{
+    padding: 0.6% 2% 0% 0%;
+    height: 64%;
+    object-fit: contain;
+    box-sizing:initial;
+}
+
+.logodiv{
+    padding: 4%;
+    margin-bottom: 12%;
+}
+
+.navcontent{
+    padding: 8%;
+    text-align: center;
+    height: 4%;
+    margin-bottom: 2%;
+}

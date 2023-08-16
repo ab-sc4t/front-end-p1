@@ -1,0 +1,90 @@
+
+*,
+*::after,
+*::before{
+	margin:0;
+	padding:0;
+	box-sizing: border-box ;
+	-webkit-tap-highlight-color : transparent ;
+}
+
+html{ 
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	color: #303030;
+	background-color: #efefef;
+	user-select: none;
+	overflow-x: hidden;
+}
+
+body{ 
+	box-sizing: border-box; 
+	overflow-x: hidden ;
+	max-width: 100% ;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-color: #212121;
+}
+
+.mainbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.form{
+	height: 36vh;
+	width: 36vw;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 3.2rem;
+}
+
+.formHeading{
+	font-weight: 600;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.iddiv{
+	padding-top: 1rem;
+	font-size: 2rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.form-center {
+	display:flex;
+	justify-content: center;
+	padding: 2rem;
+	}
+
+.input[type=text] {
+	/* border: none; */
+	border-bottom: 1px solid #303030;
+	padding: 2rem;
+}
+
+.buttons{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.response{
+	margin: 0.4rem;
+	background-color: #2F49C0;
+    color: white;
+	padding: 0.8rem;
+}
+
+.close{
+	margin: 0.4rem;
+	background-color: #2F49C0;
+    color: white;
+	padding: 0.8rem;
+}

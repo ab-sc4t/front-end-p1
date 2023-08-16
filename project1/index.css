@@ -1,0 +1,207 @@
+
+*,
+*::after,
+*::before{
+	margin:0;
+	padding:0;
+	box-sizing: border-box ;
+	-webkit-tap-highlight-color : transparent ;
+}
+
+html{ 
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	color: #303030;
+	background-color: #efefef;
+	user-select: none;
+	overflow-x: hidden;
+}
+
+body{ 
+	box-sizing: border-box; 
+	overflow-x: hidden ;
+	max-width: 100% ;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+h2{
+    font-weight: 400;
+}
+
+h1{
+    text-align: center;
+}
+    
+.mainbox {
+    display: flex;
+    flex-direction : row;
+    height: 100vh; 
+}
+
+.navbar{
+    width: 12vw;
+    border-right: 2px solid;
+    border-color: #a9a7a76e;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subbox{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+}
+
+.profilebox{
+    height: 6vh;
+    color: white;
+    background-color: rgba(36, 41, 47, 1);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bodybox{
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 4.8rem;
+}
+
+.homediv{
+    padding-top: 2%;
+}
+
+.detailsdiv{
+    padding: 0rem 6rem 6rem 0rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.objectsdiv{
+    margin-top: 2%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 1% 0% 1% 1%;
+}
+
+.obj{
+    height: 100%;
+    flex: 1;
+    border: 1px solid rgba(112, 112, 112, 0.725);
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.subobj{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subobj2{
+    /* border-style: solid;
+    border-width: 1px; */
+    /* flex: 1; */
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.subobj3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #a9a7a76e;
+    padding: 2rem;
+}
+
+.subobj4{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.subobj5{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.brandlogodiv{
+    flex: 8;
+}
+
+.brandlogo{
+    object-fit: contain;
+    height: 12rem;
+}
+
+.dropdwon{
+    flex: 2;
+}
+
+.brand{
+    flex: 1;
+    margin-bottom: 0.4rem;
+    padding: 0.4rem;
+}
+
+.location{
+    flex: 1;
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+}
+
+.detailsobj{
+    text-align: center;
+    height: auto;
+}
+
+.detailsobj:first-child{
+    margin-bottom: 0.4rem;
+}
+
+.submitbutton{
+    text-align: center;
+    margin: 2.4rem;
+    background-color: #2F49C0;
+    color: white;
+    width: max-content;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+.logo{
+    padding-top: 8%;
+    width: 80%;
+    padding-left: 12%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo2{
+    padding: 0.6% 2% 0% 0%;
+    height: 64%;
+    object-fit: contain;
+    box-sizing:initial;
+}
+
+.logodiv{
+    padding: 4%;
+    margin-bottom: 12%;
+}
+
+.navcontent{
+    padding: 8%;
+    text-align: center;
+    height: 4%;
+    margin-bottom: 2%;
+}

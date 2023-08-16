@@ -1,0 +1,96 @@
+
+*,
+*::after,
+*::before{
+	margin:0;
+	padding:0;
+	box-sizing: border-box ;
+	-webkit-tap-highlight-color : transparent ;
+}
+
+html{ 
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	color: #303030;
+	background-color: #efefef;
+	user-select: none;
+	overflow-x: hidden;
+}
+
+body{ 
+	box-sizing: border-box; 
+	overflow-x: hidden ;
+	max-width: 100% ;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-color: #212121;
+}
+
+.mainbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.form{
+	height: 52vh;
+	width: 48vw;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 3.2rem;
+}
+
+.seconddiv{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6rem;
+    justify-content: center;
+}
+
+.headingform{
+    font-size: 2.8rem;
+    font-weight:400;
+    text-align: center;
+}
+
+.indiv{
+    margin: 0rem 4.8rem;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    padding: 0.8rem 6rem;
+}
+
+th{
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+td{
+    font-size: 1.2rem;
+}
+
+th, td{
+    padding: 0.8rem;
+    border-bottom: 1px solid #000;
+}
+
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.next{
+	margin: 0.4rem;
+	background-color: #2F49C0;
+    color: white;
+	padding: 0.8rem;
+    margin-right: 6rem;
+}
